@@ -85,11 +85,11 @@ public class Warehouse{
         stmt.executeUpdate();
         stmt.close();
     }
-    
+
     @Override
     public String toString(){
-        return "Id: " + id + "\n" 
-        + "Name: " + name + "\n" 
+        return "Id: " + id + "\n"
+        + "Name: " + name + "\n"
         + "Address: " + address + "\n";
     }
     @Override
